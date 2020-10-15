@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+HELP.md
+mvnw
+mvnw.cmd
+.mvn
+producer-generic.iml
+producer-generic.log
+MyApp-2020-10-14.0.log
