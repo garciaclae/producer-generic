@@ -34,6 +34,7 @@ public class ProducerKafka {
                 .setHeader(KafkaHeaders.TOPIC, producerTopic)
                 .build();
         kafkaTemplate.send(message);
+        kafkaTemplate.flush();
         LOGGER.info("Message delivered");
         return true;
     }
